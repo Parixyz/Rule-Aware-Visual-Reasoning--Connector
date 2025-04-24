@@ -111,12 +111,47 @@ Run: Find and Suggest (rules = [R1], scene = MainScene, output = "results.cfs")
 
 ---
 
-## Future Directions
+## DSL Structure Example
 
-- Scene visualizer with contradiction highlights
-- Rule suggestion and learning from annotated examples
-- Probabilistic/fuzzy rule support
-- Web-based GUI for scene and rule authoring
+### === TYPES ===
+```python
+{'name': 'Object1', 'attributes': ['shape', 'mat'], 'children': []}
+{'name': 'MainScene', 'attributes': ['BackgroundColor'], 'children': [('Object1', '')]}
+```
 
- 
+### === RULE STRINGS ===
+```dsl
+rule ShapeCountLimit(scene: MainScene) {
+  for o in scene.Object1 do {
+    if count(scene.Object1.shape) >= 5 then {
+      contradiction 102
+    }
+  }
+}
+
+rule SphereTorusVsCubes(scene: MainScene) {
+  if count(scene.Object1.shape) > 10 then {
+    contradiction 103
+  }
+}
+```
+
+### === SCENES ===
+```python
+{'name': 'scene1', 'path': 'Folder path', 'root_type': 'MainScene'}
+```
+
+### === METHOD CALLS ===
+```python
+{'caller': 'scene1', 'rules': ['ShapeCountLimit', 'SphereTorusVsCubes']}
+```
+
+---
+
+## Author
+
+**Parinaz Bigdelian**  
+MSc in Computer Science  
+Research in Visual Reasoning, AI, and NLP  
+GitHub: [your-profile]
 
