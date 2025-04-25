@@ -148,10 +148,4 @@ rule SphereTorusVsCubes(scene: MainScene) {
 
 ---
 
-## Author
-
-**Parinaz Bigdelian**  
-MSc in Computer Science  
-Research in Visual Reasoning, AI, and NLP  
-GitHub: [your-profile]
 
