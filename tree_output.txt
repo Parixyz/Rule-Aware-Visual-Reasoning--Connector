@@ -1,0 +1,2475 @@
+value
+  Token('STRING', '"red"')
+multiplicity
+multiplicity
+multiplicity
+expr
+  Token('IDENT', 'bird')
+  Token('IDENT', 'color')
+  Token('COMPARE', '=')
+  value
+    Token('STRING', '"red"')
+obj_item
+  Token('IDENT', 'Bird')
+  multiplicity
+obj_item
+  Token('IDENT', 'Cloud')
+  multiplicity
+obj_item
+  Token('IDENT', 'Sun')
+  multiplicity
+condition
+  value
+    Token('STRING', '"red"')
+  expr
+    Token('IDENT', 'bird')
+    Token('IDENT', 'color')
+    Token('COMPARE', '=')
+    value
+      Token('STRING', '"red"')
+contradiction
+  Token('NUMBER', '101')
+attr_list
+  Token('IDENT', 'color')
+  Token('IDENT', 'pollution_level')
+obj_list
+  multiplicity
+  obj_item
+    Token('IDENT', 'Bird')
+    multiplicity
+  multiplicity
+  obj_item
+    Token('IDENT', 'Cloud')
+    multiplicity
+  multiplicity
+  obj_item
+    Token('IDENT', 'Sun')
+    multiplicity
+attr_list
+  Token('IDENT', 'color')
+  Token('IDENT', 'speed')
+if_stmt
+  value
+    Token('STRING', '"red"')
+  expr
+    Token('IDENT', 'bird')
+    Token('IDENT', 'color')
+    Token('COMPARE', '=')
+    value
+      Token('STRING', '"red"')
+  condition
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+  contradiction
+    Token('NUMBER', '101')
+attr_block
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'pollution_level')
+obj_block
+  multiplicity
+  multiplicity
+  multiplicity
+  obj_item
+    Token('IDENT', 'Bird')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Cloud')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Sun')
+    multiplicity
+  obj_list
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+attr_block
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'speed')
+obj_block
+for_stmt
+  Token('IDENT', 'bird')
+  Token('IDENT', 'sky')
+  Token('IDENT', 'Bird')
+  value
+    Token('STRING', '"red"')
+  expr
+    Token('IDENT', 'bird')
+    Token('IDENT', 'color')
+    Token('COMPARE', '=')
+    value
+      Token('STRING', '"red"')
+  condition
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+  contradiction
+    Token('NUMBER', '101')
+  if_stmt
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+type_body
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'pollution_level')
+  attr_block
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+  multiplicity
+  multiplicity
+  multiplicity
+  obj_item
+    Token('IDENT', 'Bird')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Cloud')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Sun')
+    multiplicity
+  obj_list
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+  obj_block
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+type_body
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'speed')
+  attr_block
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+  obj_block
+rule_body
+  value
+    Token('STRING', '"red"')
+  expr
+    Token('IDENT', 'bird')
+    Token('IDENT', 'color')
+    Token('COMPARE', '=')
+    value
+      Token('STRING', '"red"')
+  condition
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+  contradiction
+    Token('NUMBER', '101')
+  if_stmt
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+  for_stmt
+    Token('IDENT', 'bird')
+    Token('IDENT', 'sky')
+    Token('IDENT', 'Bird')
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+type_def
+  Token('IDENT', 'Sky')
+  multiplicity
+  multiplicity
+  multiplicity
+  obj_item
+    Token('IDENT', 'Bird')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Cloud')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Sun')
+    multiplicity
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'pollution_level')
+  obj_list
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+  attr_block
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+  obj_block
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+  type_body
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+    obj_block
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+type_def
+  Token('IDENT', 'Bird')
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'speed')
+  attr_block
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+  obj_block
+  type_body
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+    obj_block
+rule_def
+  Token('IDENT', 'CheckRedBirds')
+  Token('IDENT', 'sky')
+  Token('IDENT', 'Sky')
+  value
+    Token('STRING', '"red"')
+  expr
+    Token('IDENT', 'bird')
+    Token('IDENT', 'color')
+    Token('COMPARE', '=')
+    value
+      Token('STRING', '"red"')
+  condition
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+  contradiction
+    Token('NUMBER', '101')
+  if_stmt
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+  for_stmt
+    Token('IDENT', 'bird')
+    Token('IDENT', 'sky')
+    Token('IDENT', 'Bird')
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+  rule_body
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+    for_stmt
+      Token('IDENT', 'bird')
+      Token('IDENT', 'sky')
+      Token('IDENT', 'Bird')
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+scene_check
+  Token('IDENT', 'scene1')
+  Token('STRING', '"Folder path"')
+  Token('IDENT', 'Sky')
+method_call
+  Token('IDENT', 'scene1')
+  Token('IDENT', 'start')
+  Token('IDENT', 'end')
+  Token('IDENT', 'CheckRedBirds')
+  Token('IDENT', 'CheckCloudCount')
+statement
+  multiplicity
+  multiplicity
+  multiplicity
+  obj_item
+    Token('IDENT', 'Bird')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Cloud')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Sun')
+    multiplicity
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'pollution_level')
+  obj_list
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+  attr_block
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+  obj_block
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+  type_body
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+    obj_block
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+  type_def
+    Token('IDENT', 'Sky')
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+    obj_block
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+    type_body
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+      attr_block
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'pollution_level')
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+      obj_block
+        multiplicity
+        multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+        obj_list
+          multiplicity
+          obj_item
+            Token('IDENT', 'Bird')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Cloud')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Sun')
+            multiplicity
+statement
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'speed')
+  attr_block
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+  obj_block
+  type_body
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+    obj_block
+  type_def
+    Token('IDENT', 'Bird')
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+    obj_block
+    type_body
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+      attr_block
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'speed')
+      obj_block
+statement
+  value
+    Token('STRING', '"red"')
+  expr
+    Token('IDENT', 'bird')
+    Token('IDENT', 'color')
+    Token('COMPARE', '=')
+    value
+      Token('STRING', '"red"')
+  condition
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+  contradiction
+    Token('NUMBER', '101')
+  if_stmt
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+  for_stmt
+    Token('IDENT', 'bird')
+    Token('IDENT', 'sky')
+    Token('IDENT', 'Bird')
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+  rule_body
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+    for_stmt
+      Token('IDENT', 'bird')
+      Token('IDENT', 'sky')
+      Token('IDENT', 'Bird')
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+  rule_def
+    Token('IDENT', 'CheckRedBirds')
+    Token('IDENT', 'sky')
+    Token('IDENT', 'Sky')
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+    for_stmt
+      Token('IDENT', 'bird')
+      Token('IDENT', 'sky')
+      Token('IDENT', 'Bird')
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+    rule_body
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+      for_stmt
+        Token('IDENT', 'bird')
+        Token('IDENT', 'sky')
+        Token('IDENT', 'Bird')
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+        if_stmt
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+          condition
+            value
+              Token('STRING', '"red"')
+            expr
+              Token('IDENT', 'bird')
+              Token('IDENT', 'color')
+              Token('COMPARE', '=')
+              value
+                Token('STRING', '"red"')
+          contradiction
+            Token('NUMBER', '101')
+statement
+  scene_check
+    Token('IDENT', 'scene1')
+    Token('STRING', '"Folder path"')
+    Token('IDENT', 'Sky')
+statement
+  method_call
+    Token('IDENT', 'scene1')
+    Token('IDENT', 'start')
+    Token('IDENT', 'end')
+    Token('IDENT', 'CheckRedBirds')
+    Token('IDENT', 'CheckCloudCount')
+start
+  multiplicity
+  multiplicity
+  multiplicity
+  obj_item
+    Token('IDENT', 'Bird')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Cloud')
+    multiplicity
+  obj_item
+    Token('IDENT', 'Sun')
+    multiplicity
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'pollution_level')
+  obj_list
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+  attr_block
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+  obj_block
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+  type_body
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+    obj_block
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+  type_def
+    Token('IDENT', 'Sky')
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+    obj_block
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+    type_body
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+      attr_block
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'pollution_level')
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+      obj_block
+        multiplicity
+        multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+        obj_list
+          multiplicity
+          obj_item
+            Token('IDENT', 'Bird')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Cloud')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Sun')
+            multiplicity
+  statement
+    multiplicity
+    multiplicity
+    multiplicity
+    obj_item
+      Token('IDENT', 'Bird')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Cloud')
+      multiplicity
+    obj_item
+      Token('IDENT', 'Sun')
+      multiplicity
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'pollution_level')
+    obj_list
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+    obj_block
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+    type_body
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+      attr_block
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'pollution_level')
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+      obj_block
+        multiplicity
+        multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+        obj_list
+          multiplicity
+          obj_item
+            Token('IDENT', 'Bird')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Cloud')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Sun')
+            multiplicity
+    type_def
+      Token('IDENT', 'Sky')
+      multiplicity
+      multiplicity
+      multiplicity
+      obj_item
+        Token('IDENT', 'Bird')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Cloud')
+        multiplicity
+      obj_item
+        Token('IDENT', 'Sun')
+        multiplicity
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'pollution_level')
+      obj_list
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+      attr_block
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'pollution_level')
+      obj_block
+        multiplicity
+        multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+        obj_list
+          multiplicity
+          obj_item
+            Token('IDENT', 'Bird')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Cloud')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Sun')
+            multiplicity
+      type_body
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'pollution_level')
+        attr_block
+          attr_list
+            Token('IDENT', 'color')
+            Token('IDENT', 'pollution_level')
+        multiplicity
+        multiplicity
+        multiplicity
+        obj_item
+          Token('IDENT', 'Bird')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Cloud')
+          multiplicity
+        obj_item
+          Token('IDENT', 'Sun')
+          multiplicity
+        obj_list
+          multiplicity
+          obj_item
+            Token('IDENT', 'Bird')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Cloud')
+            multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Sun')
+            multiplicity
+        obj_block
+          multiplicity
+          multiplicity
+          multiplicity
+          obj_item
+            Token('IDENT', 'Bird')
+            multiplicity
+          obj_item
+            Token('IDENT', 'Cloud')
+            multiplicity
+          obj_item
+            Token('IDENT', 'Sun')
+            multiplicity
+          obj_list
+            multiplicity
+            obj_item
+              Token('IDENT', 'Bird')
+              multiplicity
+            multiplicity
+            obj_item
+              Token('IDENT', 'Cloud')
+              multiplicity
+            multiplicity
+            obj_item
+              Token('IDENT', 'Sun')
+              multiplicity
+  attr_list
+    Token('IDENT', 'color')
+    Token('IDENT', 'speed')
+  attr_block
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+  obj_block
+  type_body
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+    obj_block
+  type_def
+    Token('IDENT', 'Bird')
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+    obj_block
+    type_body
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+      attr_block
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'speed')
+      obj_block
+  statement
+    attr_list
+      Token('IDENT', 'color')
+      Token('IDENT', 'speed')
+    attr_block
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+    obj_block
+    type_body
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+      attr_block
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'speed')
+      obj_block
+    type_def
+      Token('IDENT', 'Bird')
+      attr_list
+        Token('IDENT', 'color')
+        Token('IDENT', 'speed')
+      attr_block
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'speed')
+      obj_block
+      type_body
+        attr_list
+          Token('IDENT', 'color')
+          Token('IDENT', 'speed')
+        attr_block
+          attr_list
+            Token('IDENT', 'color')
+            Token('IDENT', 'speed')
+        obj_block
+  value
+    Token('STRING', '"red"')
+  expr
+    Token('IDENT', 'bird')
+    Token('IDENT', 'color')
+    Token('COMPARE', '=')
+    value
+      Token('STRING', '"red"')
+  condition
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+  contradiction
+    Token('NUMBER', '101')
+  if_stmt
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+  for_stmt
+    Token('IDENT', 'bird')
+    Token('IDENT', 'sky')
+    Token('IDENT', 'Bird')
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+  rule_body
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+    for_stmt
+      Token('IDENT', 'bird')
+      Token('IDENT', 'sky')
+      Token('IDENT', 'Bird')
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+  rule_def
+    Token('IDENT', 'CheckRedBirds')
+    Token('IDENT', 'sky')
+    Token('IDENT', 'Sky')
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+    for_stmt
+      Token('IDENT', 'bird')
+      Token('IDENT', 'sky')
+      Token('IDENT', 'Bird')
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+    rule_body
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+      for_stmt
+        Token('IDENT', 'bird')
+        Token('IDENT', 'sky')
+        Token('IDENT', 'Bird')
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+        if_stmt
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+          condition
+            value
+              Token('STRING', '"red"')
+            expr
+              Token('IDENT', 'bird')
+              Token('IDENT', 'color')
+              Token('COMPARE', '=')
+              value
+                Token('STRING', '"red"')
+          contradiction
+            Token('NUMBER', '101')
+  statement
+    value
+      Token('STRING', '"red"')
+    expr
+      Token('IDENT', 'bird')
+      Token('IDENT', 'color')
+      Token('COMPARE', '=')
+      value
+        Token('STRING', '"red"')
+    condition
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+    contradiction
+      Token('NUMBER', '101')
+    if_stmt
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+    for_stmt
+      Token('IDENT', 'bird')
+      Token('IDENT', 'sky')
+      Token('IDENT', 'Bird')
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+    rule_body
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+      for_stmt
+        Token('IDENT', 'bird')
+        Token('IDENT', 'sky')
+        Token('IDENT', 'Bird')
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+        if_stmt
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+          condition
+            value
+              Token('STRING', '"red"')
+            expr
+              Token('IDENT', 'bird')
+              Token('IDENT', 'color')
+              Token('COMPARE', '=')
+              value
+                Token('STRING', '"red"')
+          contradiction
+            Token('NUMBER', '101')
+    rule_def
+      Token('IDENT', 'CheckRedBirds')
+      Token('IDENT', 'sky')
+      Token('IDENT', 'Sky')
+      value
+        Token('STRING', '"red"')
+      expr
+        Token('IDENT', 'bird')
+        Token('IDENT', 'color')
+        Token('COMPARE', '=')
+        value
+          Token('STRING', '"red"')
+      condition
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+      contradiction
+        Token('NUMBER', '101')
+      if_stmt
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+      for_stmt
+        Token('IDENT', 'bird')
+        Token('IDENT', 'sky')
+        Token('IDENT', 'Bird')
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+        if_stmt
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+          condition
+            value
+              Token('STRING', '"red"')
+            expr
+              Token('IDENT', 'bird')
+              Token('IDENT', 'color')
+              Token('COMPARE', '=')
+              value
+                Token('STRING', '"red"')
+          contradiction
+            Token('NUMBER', '101')
+      rule_body
+        value
+          Token('STRING', '"red"')
+        expr
+          Token('IDENT', 'bird')
+          Token('IDENT', 'color')
+          Token('COMPARE', '=')
+          value
+            Token('STRING', '"red"')
+        condition
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+        contradiction
+          Token('NUMBER', '101')
+        if_stmt
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+          condition
+            value
+              Token('STRING', '"red"')
+            expr
+              Token('IDENT', 'bird')
+              Token('IDENT', 'color')
+              Token('COMPARE', '=')
+              value
+                Token('STRING', '"red"')
+          contradiction
+            Token('NUMBER', '101')
+        for_stmt
+          Token('IDENT', 'bird')
+          Token('IDENT', 'sky')
+          Token('IDENT', 'Bird')
+          value
+            Token('STRING', '"red"')
+          expr
+            Token('IDENT', 'bird')
+            Token('IDENT', 'color')
+            Token('COMPARE', '=')
+            value
+              Token('STRING', '"red"')
+          condition
+            value
+              Token('STRING', '"red"')
+            expr
+              Token('IDENT', 'bird')
+              Token('IDENT', 'color')
+              Token('COMPARE', '=')
+              value
+                Token('STRING', '"red"')
+          contradiction
+            Token('NUMBER', '101')
+          if_stmt
+            value
+              Token('STRING', '"red"')
+            expr
+              Token('IDENT', 'bird')
+              Token('IDENT', 'color')
+              Token('COMPARE', '=')
+              value
+                Token('STRING', '"red"')
+            condition
+              value
+                Token('STRING', '"red"')
+              expr
+                Token('IDENT', 'bird')
+                Token('IDENT', 'color')
+                Token('COMPARE', '=')
+                value
+                  Token('STRING', '"red"')
+            contradiction
+              Token('NUMBER', '101')
+  scene_check
+    Token('IDENT', 'scene1')
+    Token('STRING', '"Folder path"')
+    Token('IDENT', 'Sky')
+  statement
+    scene_check
+      Token('IDENT', 'scene1')
+      Token('STRING', '"Folder path"')
+      Token('IDENT', 'Sky')
+  method_call
+    Token('IDENT', 'scene1')
+    Token('IDENT', 'start')
+    Token('IDENT', 'end')
+    Token('IDENT', 'CheckRedBirds')
+    Token('IDENT', 'CheckCloudCount')
+  statement
+    method_call
+      Token('IDENT', 'scene1')
+      Token('IDENT', 'start')
+      Token('IDENT', 'end')
+      Token('IDENT', 'CheckRedBirds')
+      Token('IDENT', 'CheckCloudCount')

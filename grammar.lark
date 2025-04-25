@@ -1,0 +1,33 @@
+start: statement+
+
+statement: type_def | rule_def | scene_check | method_call
+
+type_def: "type" IDENT "{" type_body "}"
+type_body: attr_block obj_block
+attr_block: "attributes:" "[" attr_list? "]"
+attr_list: IDENT ("," IDENT)*
+obj_block: "objects:" "[" obj_list? "]"
+obj_list: obj_item ("," obj_item)*
+obj_item: IDENT multiplicity?
+multiplicity: "+" | "*" | "?"
+
+rule_def: "rule" IDENT "(" IDENT ":" IDENT ")" "{" rule_body "}"
+rule_body: (for_stmt | if_stmt)+
+for_stmt: "for" IDENT "in" IDENT "." IDENT "do" "{" if_stmt+ "}"
+if_stmt: "if" condition "then" "{" contradiction "}"
+condition: count_condition | expr
+count_condition: "count" "(" field ")" COMPARE value
+expr: IDENT "." IDENT COMPARE value
+field: IDENT ("." IDENT)*
+COMPARE: "=" | ">" | "<" | ">=" | "<=" | "!="
+value: STRING | NUMBER
+contradiction: "contradiction" NUMBER
+
+scene_check: IDENT "=" "LoadScene" "(" STRING "," IDENT ")"
+method_call: IDENT ".Check(" IDENT "," IDENT "," "[" IDENT ("," IDENT)* "]" ")"
+
+%import common.CNAME -> IDENT
+%import common.ESCAPED_STRING -> STRING
+%import common.NUMBER
+%import common.WS
+%ignore WS

@@ -1,0 +1,16 @@
+[
+    {
+        "module": "TorchMaskRCNNShapeWSegmentor",
+        "class": "TorchMaskRCNNShapeWSegmentor",
+        "ATTR": "",
+        "TYPE": "SEGMENTOR",
+        "OBJECTS": ["sphere", "cone", "cylinder", "torus", "cube"]
+    },
+    {
+        "module": "TorchMaterialClassifier",
+        "class": "TorchMaterialClassifier",
+        "ATTR": "material",
+        "TYPE": "CLASSIFIER",
+        "OBJECTS": []
+    }
+]

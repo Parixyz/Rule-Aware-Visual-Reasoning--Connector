@@ -1,0 +1,38 @@
+{
+  "DataFolder": "scenes/",
+  "Models": [
+    {
+      "name": "TypeAnalyzer",
+      "type": "Classifier",
+      "path": "models/type_class.pth",
+      "attribute": "type",
+      "input_type": "CroppedObject"
+    },
+    {
+      "name": "SkySegmentor",
+      "type": "Segmentor",
+      "path": "models/sky_seg.pth",
+      "detects_objects": ["Sky"]
+    },
+    {
+      "name": "HouseSegmentor",
+      "type": "Segmentor",
+      "path": "models/house_seg.pth",
+      "detects_objects": ["House", "Window", "Door", "Roof", "Chimney"]
+    },
+    {
+      "name": "ColorClassifier",
+      "type": "Classifier",
+      "path": "models/color_class.pth",
+      "attribute": "color",
+      "input_type": "CroppedObject"
+    },
+    {
+      "name": "StyleClassifier",
+      "type": "Classifier",
+      "path": "models/style_class.pth",
+      "attribute": "style",
+      "input_type": "CroppedObject"
+    }
+  ]
+}
